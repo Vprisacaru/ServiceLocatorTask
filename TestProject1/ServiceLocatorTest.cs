@@ -3,7 +3,7 @@ using Xunit;
 
 namespace ServiceLocatorTask
 {
-    public class UnitTest1
+    public class ServiceLocatorTest
     {
         [Fact]
         public void Transient_GetTwice_ReturnsDifferentObjects()

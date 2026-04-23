@@ -13,13 +13,7 @@ namespace ServiceLocatorTask
 
     public class ServiceLocator
     {
-        private class Registration
-        {
-            public Type ImplementationType { get; set; } = null!;
-            public Lifetime Lifetime { get; set; }
-            public object? SingletonInstance { get; set; }
-        }
-
+        
         private readonly Dictionary<Type, Registration> _services = new();
 
         public void Register<TInterface, TImplementation>(Lifetime lifetime)

@@ -1,16 +1,12 @@
-﻿using System;
+﻿using ServiceLocatorTask.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace ServiceLocatorTask
+namespace ServiceLocatorTask.Application
 {
-    public enum Lifetime
-    {
-        Singleton,
-        Transient
-    }
-
+   
     public class ServiceLocator
     {
         

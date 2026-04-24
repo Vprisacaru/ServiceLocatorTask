@@ -1,4 +1,8 @@
-﻿using System;
+﻿using ServiceLocatorTask.Application;
+using ServiceLocatorTask.Domain;
+using ServiceLocatorTask.Infrastructure;
+using ServiceLocatorTask.Interface;
+using System;
 using Xunit;
 
 namespace ServiceLocatorTask

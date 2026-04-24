@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ServiceLocatorTask
+namespace ServiceLocatorTask.Domain
 {
     public class Registration
     {

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ServiceLocatorTask.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ServiceLocatorTask
+namespace ServiceLocatorTask.Application
 {
     public class ServiceA : IServiceA
     {

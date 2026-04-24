@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ServiceLocatorTask
+namespace ServiceLocatorTask.Interface
 {
-    public class TransientService: ITransientService
+    public interface ISingletonService
     {
-
+        
     }
 }

@@ -1,4 +1,4 @@
 <Solution>
   <Project Path="ServiceLocatorTask/ServiceLocatorTask.csproj" />
-  <Project Path="TestProject1/TestProject1.csproj" />
+  <Project Path="TestProject1/ServiceLocator.Test.csproj" />
 </Solution>

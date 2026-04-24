@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ServiceLocatorTask
+namespace ServiceLocatorTask.Interface
 {
-    public interface IMultiCtorService
+    public interface IRepository
     {
     }
 }

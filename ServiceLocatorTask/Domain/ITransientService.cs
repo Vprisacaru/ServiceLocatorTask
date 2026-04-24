@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ServiceLocatorTask
+namespace ServiceLocatorTask.Interface
 {
-    public interface ISingletonService
+    public interface ITransientService
     {
-        
     }
 }
